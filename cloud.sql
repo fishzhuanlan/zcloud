@@ -1451,7 +1451,7 @@ CREATE TABLE `cloud_registry_server` (
   `entname` varchar(100) DEFAULT NULL COMMENT '环境名称',
   `mount_path` varchar(1000) DEFAULT NULL COMMENT '仓库挂载路径',
   `labels` varchar(30) DEFAULT NULL COMMENT '安装集群的标签',
-  `host_path` varchar(200) ) DEFAULT NULL COMMENT '主机挂载路径',
+  `host_path` varchar(200)  DEFAULT NULL COMMENT '主机挂载路径',
   `status` varchar(10) DEFAULT NULL COMMENT '运行状态',
   `replicas` int(11) DEFAULT NULL COMMENT '副本数量',
   PRIMARY KEY (`server_id`),
